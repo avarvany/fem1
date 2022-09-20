@@ -72,7 +72,7 @@ button {
 }
 
 .cart {
-  background-color: #3d8168;
+  background-color: transparent;
 }
 
 .everything {
@@ -144,5 +144,9 @@ button {
 
       .description {
         margin-bottom: 20px;
+      }
+
+      button:hover {
+        background-color: #1a4032;
       }
 }
