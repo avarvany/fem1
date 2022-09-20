@@ -1,106 +1,148 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #f2eae2;
-    
+  background-color: #f2eae2;
 }
 
-.title, .current {
-    font-family: 'Fraunces', serif;
+.title,
+.current {
+  font-family: "Fraunces", serif;
 }
 
 .title {
-    color: #1c232b;
-    font-size: 32px;
-    background-color: #ffffff;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 5px;
+  color: #1c232b;
+  font-size: 32px;
+  background-color: #ffffff;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 5px;
 }
 
 .current {
-    color: #3d8168;
-    background-color: #ffffff;
-    display: inline-block;
-    margin: 10px 20px;
-    font-size: 32px;
+  color: #3d8168;
+  background-color: #ffffff;
+  display: inline-block;
+  margin: 10px 20px;
+  font-size: 32px;
 }
 
 .tag {
-    color: #6c7289;
-    font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #ffffff;
-    margin-top: 20px;
-    margin-left: 20px;
+  color: #6c7289;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffffff;
+  margin-top: 20px;
+  margin-left: 20px;
+  letter-spacing: 2.5px;
 }
 
 .description {
-    color: #6c7289;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    background-color: #ffffff;
-    margin: 10px 20px;
+  color: #6c7289;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  background-color: #ffffff;
+  margin: 10px 20px;
 }
 
 .original {
-    color: #6c7289;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
-    text-decoration: line-through;
-    background-color: #ffffff;
-    display: inline-block;
+  color: #6c7289;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  text-decoration: line-through;
+  background-color: #ffffff;
+  display: inline-block;
 }
 
 button {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-    background-color: #3d8168;
-    border: none;
-    color: #ffffff;
-    width: 250px;
-    height: 48px;
-    border-radius: 8px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #3d8168;
+  border: none;
+  color: #ffffff;
+  width: 250px;
+  height: 48px;
+  border-radius: 8px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .cart {
-    background-color: #3d8168
+  background-color: #3d8168;
 }
 
 .everything {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 320px;
-    height: 630px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 630px;
 }
 
 .image1 {
-    width: 100%;
-    height: auto;
-    margin-bottom: 0;
-    display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0;
+  display: block;
 }
 
 .content {
-    background-color: #ffffff;
-    margin-top: 0;
+  background-color: #ffffff;
+  margin-top: 0;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    border-radius: 10px;
-    width: 300px;
-    height: auto;
-    margin: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 300px;
+  height: auto;
+  margin: 20px;
+}
+
+@media only screen and (min-width: 351px) {
+    .everything {
+        width: 1440px;
+        margin: 0 auto;
+      }
+      
+      .card {
+        display: flex;
+        flex-direction: row;
+        height: 450px;
+        width: 600px;
+      }
+
+      .image1 {
+        width: 300px;
+        height: 450px;
+        display: inline;
+      }
+
+      .content {
+        display: inline;
+      }
+
+      .tag {
+        letter-spacing: 5px;
+      }
+
+      .title {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      button {
+        margin-top: 30px;
+      }
+
+      .description {
+        margin-bottom: 20px;
+      }
 }
