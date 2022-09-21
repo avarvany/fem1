@@ -67,5 +67,6 @@ This is just my first project, so of course I want to keep doing more projects t
 
 ## Acknowledgments
 
-Interneting Is Hard
-The Odin Project
+- Interneting Is Hard
+- The Odin Project
+- [Kawsar Ahmed Fahad](https://www.frontendmentor.io/profile/faha1999) - for reviewing my project and guiding me with a few tips to make this project even better!
